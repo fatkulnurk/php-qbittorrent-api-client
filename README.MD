@@ -29,8 +29,8 @@ comming soon
 
 ## Todo:
 - [x] Authentication
-- [ ] Application
-- [ ] Log
+- [x] Application
+- [x] Log
 - [ ] Sync
 - [ ] Transfer info
 - [ ] Torrent management
@@ -50,13 +50,13 @@ comming soon
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Get application version | :x: | :x:  |
-| Get API version |  :x: | :x:  |
-| Get build info |  :x: | :x:  |
-| Shutdown application |  :x: | :x:  |
-| Get application preferences |  :x: | :x:  |
-| Set application preferences |  :x: | :x:  |
-| Get default save path |  :x: | :x:  |
+| Get application version | :white_check_mark: | :x:  |
+| Get API version | :white_check_mark: | :x:  |
+| Get build info | :white_check_mark: | :x:  |
+| Shutdown application | :white_check_mark: | :x:  |
+| Get application preferences | :white_check_mark: | :x:  |
+| Set application preferences | :white_check_mark: | :x:  |
+| Get default save path | :white_check_mark: | :x:  |
 |  |  :x: | :x:  |
 
 
@@ -64,8 +64,8 @@ comming soon
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Get log | :x: | :x:  |
-| Get peer log |  :x: | :x:  |
+| Get log | :white_check_mark: | :x:  |
+| Get peer log | :white_check_mark: | :x:  |
 
 
 **Sync**
