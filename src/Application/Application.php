@@ -2,35 +2,65 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Application;
 
+use Fatkulnurk\PHPQbittorrentApi\RequestClient;
+
 class Application implements ApplicationInterface
 {
     public function getApplicationVersion()
     {
-        // TODO: Implement getApplicationVersion() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/version');
+
+        return $response->getBody()->getContents();
     }
 
     public function getApiVersion()
     {
-        // TODO: Implement getApiVersion() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/webapiVersion');
+
+        return $response->getBody()->getContents();
     }
 
     public function getBuildInfo()
     {
-        // TODO: Implement getBuildInfo() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/buildInfo');
+
+        return $response->getBody()->getContents();
     }
 
     public function shutdownApplication()
     {
-        // TODO: Implement shutdownApplication() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/shutdown');
+
+        return $response->getBody()->getContents();
     }
 
     public function getApplicationPreferences()
     {
-        // TODO: Implement getApplicationPreferences() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/preferences');
+
+        return $response->getBody()->getContents();
     }
 
     public function setApplicationPreferences(array $payload)
     {
-        // TODO: Implement setApplicationPreferences() method.
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/setPreferences', [
+                'json' => $payload
+            ]);
+
+        return $response->getBody()->getContents();
+    }
+
+    public function getDefaultSavePath()
+    {
+        $response = RequestClient::make()
+            ->request('POST', '/api/v2/app/defaultSavePath');
+
+        return $response->getBody()->getContents();
     }
 }
