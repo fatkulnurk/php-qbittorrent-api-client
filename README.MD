@@ -31,8 +31,8 @@ composer require fatkulnurk/php-qbittorrent-api
 - [x] Authentication
 - [x] Application
 - [x] Log
-- [ ] Sync
-- [ ] Transfer info
+- [x] Sync
+- [x] Transfer info
 - [ ] Torrent management
 - [ ] RSS (experimental)
 - [ ] RSS (experimental)
@@ -57,7 +57,6 @@ composer require fatkulnurk/php-qbittorrent-api
 | Get application preferences | :white_check_mark: | :x:  |
 | Set application preferences | :white_check_mark: | :x:  |
 | Get default save path | :white_check_mark: | :x:  |
-|  |  :x: | :x:  |
 
 
 **Log**
@@ -72,22 +71,22 @@ composer require fatkulnurk/php-qbittorrent-api
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Get main data | :x: | :x:  |
-| Get torrent peers data |  :x: | :x:  |
+| Get main data | :white_check_mark: | :x:  |
+| Get torrent peers data | :white_check_mark: | :x:  |
 
 
 **Transfer info**
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Get global transfer info | :x: | :x:  |
-| Get alternative speed limits state |  :x: | :x:  |
-| Toggle alternative speed limits |  :x: | :x:  |
-| Get global download limit |  :x: | :x:  |
-| Set global download limit |  :x: | :x:  |
-| Get global upload limit |  :x: | :x:  |
-| Set global upload limit |  :x: | :x:  |
-| Ban peers |  :x: | :x:  |
+| Get global transfer info | :white_check_mark: | :x:  |
+| Get alternative speed limits state | :white_check_mark: | :x:  |
+| Toggle alternative speed limits | :white_check_mark: | :x:  |
+| Get global download limit | :white_check_mark: | :x:  |
+| Set global download limit | :white_check_mark: | :x:  |
+| Get global upload limit | :white_check_mark: | :x:  |
+| Set global upload limit | :white_check_mark: | :x:  |
+| Ban peers | :white_check_mark: | :x:  |
 
 
 **Torrent management**
