@@ -12,7 +12,7 @@ class Log implements LogInterface
     public function getLog(bool $normal = true, bool $info = true, bool $warning = true, bool $critical = true, int $lastKnownID = -1)
     {
         $response = RequestClient::make()
-            ->request('GET', '', [
+            ->request('GET', '/api/v2/log/main', [
                 'query' => [
                     'normal' => $normal,
                     'info' => $info,
@@ -28,7 +28,7 @@ class Log implements LogInterface
     public function getPeerLog(int $lastKnownID = -1)
     {
         $response = RequestClient::make()
-            ->request('GET', '', [
+            ->request('GET', 'peers', [
                 'query' => [
                     'last_known_id' => $lastKnownID
                 ]
