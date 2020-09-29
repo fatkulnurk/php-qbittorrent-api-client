@@ -34,9 +34,8 @@ composer require fatkulnurk/php-qbittorrent-api
 - [x] Sync
 - [x] Transfer info
 - [ ] Torrent management
-- [ ] RSS (experimental)
-- [ ] RSS (experimental)
-- [ ] Search
+- [x] RSS (experimental)
+- [x] Search
 
 **Authentication**
 
@@ -144,34 +143,34 @@ composer require fatkulnurk/php-qbittorrent-api
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Add folder | :x: | :x:  |
-| Add feed |  :x: | :x:  |
-| Remove item |  :x: | :x:  |
-| Move item |  :x: | :x:  |
-| Get all items |  :x: | :x:  |
-| Mark as read |  :x: | :x:  |
-| Refresh item |  :x: | :x:  |
-| Set auto-downloading rule |  :x: | :x:  |
-| Rename auto-downloading rule |  :x: | :x:  |
-| Remove auto-downloading rule |  :x: | :x:  |
-| Get all auto-downloading rules |  :x: | :x:  |
-| Get all articles matching a rule |  :x: | :x:  |
+| Add folder | :white_check_mark: | :x:  |
+| Add feed | :white_check_mark: | :x:  |
+| Remove item | :white_check_mark: | :x:  |
+| Move item | :white_check_mark: | :x:  |
+| Get all items | :white_check_mark: | :x:  |
+| Mark as read | :white_check_mark: | :x:  |
+| Refresh item | :white_check_mark: | :x:  |
+| Set auto-downloading rule | :white_check_mark: | :x:  |
+| Rename auto-downloading rule | :white_check_mark: | :x:  |
+| Remove auto-downloading rule | :white_check_mark: | :x:  |
+| Get all auto-downloading rules | :white_check_mark: | :x:  |
+| Get all articles matching a rule | :white_check_mark: | :x:  |
 
 
 **Search**
 
 | Name | Status Development | Status Testing |
 |---|---|---|
-| Start search | :x: | :x:  |
-| Stop search |  :x: | :x:  |
-| Get search status |  :x: | :x:  |
-| Get search results |  :x: | :x:  |
-| Delete search |  :x: | :x:  |
-| Get search plugins |  :x: | :x:  |
-| Install search plugin |  :x: | :x:  |
-| Uninstall search plugin |  :x: | :x:  |
-| Enable search plugin |  :x: | :x:  |
-| Update search plugins |  :x: | :x:  |
+| Start search | :white_check_mark: | :x:  |
+| Stop search | :white_check_mark: | :x:  |
+| Get search status | :white_check_mark: | :x:  |
+| Get search results | :white_check_mark: | :x:  |
+| Delete search | :white_check_mark: | :x:  |
+| Get search plugins | :white_check_mark: | :x:  |
+| Install search plugin | :white_check_mark:: | :x:  |
+| Uninstall search plugin | :white_check_mark: | :x:  |
+| Enable search plugin | :white_check_mark: | :x:  |
+| Update search plugins | :white_check_mark: | :x:  |
 
 
 
