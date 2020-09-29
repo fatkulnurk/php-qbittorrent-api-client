@@ -49,9 +49,11 @@ class Application implements ApplicationInterface
     public function setApplicationPreferences(array $payload)
     {
         $response = RequestClient::make()
-            ->request('POST', '/api/v2/app/setPreferences', [
+            ->request(
+                'POST', '/api/v2/app/setPreferences', [
                 'json' => $payload
-            ]);
+                ]
+            );
 
         return $response->getBody()->getContents();
     }

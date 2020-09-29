@@ -41,11 +41,13 @@ class TransferInfo implements TransferInfoInterface
     public function setGlobalDownloadLimit(int $limit)
     {
         $response = RequestClient::make()
-            ->request('GET', '/api/v2/transfer/setDownloadLimit', [
+            ->request(
+                'GET', '/api/v2/transfer/setDownloadLimit', [
                 'qeury' => [
                     'limit' => $limit
                 ]
-            ]);
+                ]
+            );
 
         return $response->getBody()->getContents();
     }
@@ -61,11 +63,13 @@ class TransferInfo implements TransferInfoInterface
     public function setGlobalUploadLimit(int $limit)
     {
         $response = RequestClient::make()
-            ->request('GET', '/api/v2/transfer/setUploadLimit', [
+            ->request(
+                'GET', '/api/v2/transfer/setUploadLimit', [
                 'qeury' => [
                     'limit' => $limit
                 ]
-            ]);
+                ]
+            );
 
         return $response->getBody()->getContents();
     }
@@ -73,11 +77,13 @@ class TransferInfo implements TransferInfoInterface
     public function banPeers(string $peers)
     {
         $response = RequestClient::make()
-            ->request('GET', '/api/v2/transfer/banPeers', [
+            ->request(
+                'GET', '/api/v2/transfer/banPeers', [
                 'qeury' => [
                     'peers' => $peers
                 ]
-            ]);
+                ]
+            );
 
         return $response->getBody()->getContents();
     }
