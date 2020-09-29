@@ -1,4 +1,5 @@
 <?php
+
 namespace Fatkulnurk\PHPQbittorrentApi\Authentication;
 
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
@@ -9,7 +10,9 @@ class Authentication implements AuthenticationInterface
     {
         $request = RequestClient::make()
             ->request(
-                'POST', '/api/v2/auth/login', [
+                'POST',
+                '/api/v2/auth/login',
+                [
                 'form_params' => [
                     'username' => $username,
                     'password' => $password

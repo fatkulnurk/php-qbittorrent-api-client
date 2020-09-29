@@ -42,7 +42,9 @@ class TransferInfo implements TransferInfoInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/transfer/setDownloadLimit', [
+                'GET',
+                '/api/v2/transfer/setDownloadLimit',
+                [
                 'qeury' => [
                     'limit' => $limit
                 ]
@@ -64,7 +66,9 @@ class TransferInfo implements TransferInfoInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/transfer/setUploadLimit', [
+                'GET',
+                '/api/v2/transfer/setUploadLimit',
+                [
                 'qeury' => [
                     'limit' => $limit
                 ]
@@ -78,7 +82,9 @@ class TransferInfo implements TransferInfoInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/transfer/banPeers', [
+                'GET',
+                '/api/v2/transfer/banPeers',
+                [
                 'qeury' => [
                     'peers' => $peers
                 ]

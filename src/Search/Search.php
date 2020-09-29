@@ -12,7 +12,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/start', [
+                'GET',
+                '/api/v2/search/start',
+                [
                     'query' => [
                         'pattern' => $pattern,
                         'plugins' => $plugins,
@@ -28,7 +30,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/stop', [
+                'GET',
+                '/api/v2/search/stop',
+                [
                     'query' => [
                         'id' => $id
                     ]
@@ -48,7 +52,9 @@ class Search implements SearchInterface
 
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/status', [
+                'GET',
+                '/api/v2/search/status',
+                [
                     'query' => $query
                 ]
             );
@@ -60,7 +66,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/results', [
+                'GET',
+                '/api/v2/search/results',
+                [
                     'query' => [
                         'id' => $id,
                         'limit' => $limit,
@@ -76,7 +84,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/delete', [
+                'GET',
+                '/api/v2/search/delete',
+                [
                     'query' => [
                         'id' => $id
                     ]
@@ -98,7 +108,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/installPlugin', [
+                'GET',
+                '/api/v2/search/installPlugin',
+                [
                     'query' => [
                         'sources' => $sources
                     ]
@@ -112,7 +124,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/uninstallPlugin', [
+                'GET',
+                '/api/v2/search/uninstallPlugin',
+                [
                     'query' => [
                         'names' => $names
                     ]
@@ -126,7 +140,9 @@ class Search implements SearchInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/search/enablePlugin', [
+                'GET',
+                '/api/v2/search/enablePlugin',
+                [
                     'query' => [
                         'names' => $names,
                         'enable' => $enable

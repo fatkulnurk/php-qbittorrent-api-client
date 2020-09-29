@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Fatkulnurk\PHPQbitttorrentApi\Application;
-
 
 interface ApplicationInterface
 {

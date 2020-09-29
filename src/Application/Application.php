@@ -50,7 +50,9 @@ class Application implements ApplicationInterface
     {
         $response = RequestClient::make()
             ->request(
-                'POST', '/api/v2/app/setPreferences', [
+                'POST',
+                '/api/v2/app/setPreferences',
+                [
                 'json' => $payload
                 ]
             );

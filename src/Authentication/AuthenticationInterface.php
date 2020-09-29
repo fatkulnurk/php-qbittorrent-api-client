@@ -1,4 +1,5 @@
 <?php
+
 namespace Fatkulnurk\PHPQbittorrentApi\Authentication;
 
 interface AuthenticationInterface

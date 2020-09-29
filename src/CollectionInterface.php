@@ -1,8 +1,6 @@
 <?php
 
-
 namespace FatkulNurK\PHPQbittorrentApi;
-
 
 use Psr\Http\Message\ResponseInterface;
 

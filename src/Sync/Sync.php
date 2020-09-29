@@ -11,7 +11,9 @@ class Sync implements SyncInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/sync/maindata', [
+                'GET',
+                '/api/v2/sync/maindata',
+                [
                 'query' => [
                     'rid' => $rid
                 ]
@@ -25,7 +27,9 @@ class Sync implements SyncInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/sync/torrentPeers', [
+                'GET',
+                '/api/v2/sync/torrentPeers',
+                [
                 'query' => [
                     'hash' => $hash,
                     'rid' => $rid

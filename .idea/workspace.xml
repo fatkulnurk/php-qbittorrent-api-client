@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418087b5-14f4-4289-8a3a-4b6f6499c2c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Rss/RSS.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Search/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Search/SearchInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/SearchInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601274019058</updated>
       <workItem from="1601274020302" duration="10740000" />
-      <workItem from="1601350233413" duration="6507000" />
+      <workItem from="1601350233413" duration="7784000" />
     </task>
     <servers />
   </component>
@@ -95,18 +100,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="665" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601358184786" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601357502403">
+    <state x="694" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601360143554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601357502403" />
+    <state x="694" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360143554" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601360167392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360167392" />
     <state x="461" y="276" key="ComposerInitDialogKey" timestamp="1601351050425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="276" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1601351050425" />
-    <state x="747" y="156" key="NewPhpClassDialog" timestamp="1601358380939">
+    <state x="747" y="156" key="NewPhpClassDialog" timestamp="1601360145355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="747" y="156" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1601358380939" />
+    <state x="747" y="156" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360145355" />
     <state x="695" y="287" key="NewPhpFileDialog" timestamp="1601350274677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

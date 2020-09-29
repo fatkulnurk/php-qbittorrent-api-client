@@ -1,19 +1,24 @@
 <?php
 
-
 namespace Fatkulnurk\PHPQbitttorrentApi\Log;
-
 
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Log implements LogInterface
 {
 
-    public function getLog(bool $normal = true, bool $info = true, bool $warning = true, bool $critical = true, int $lastKnownID = -1)
-    {
+    public function getLog(
+        bool $normal = true,
+        bool $info = true,
+        bool $warning = true,
+        bool $critical = true,
+        int $lastKnownID = -1
+    ) {
         $response = RequestClient::make()
             ->request(
-                'GET', '/api/v2/log/main', [
+                'GET',
+                '/api/v2/log/main',
+                [
                 'query' => [
                     'normal' => $normal,
                     'info' => $info,
@@ -31,7 +36,9 @@ class Log implements LogInterface
     {
         $response = RequestClient::make()
             ->request(
-                'GET', 'peers', [
+                'GET',
+                'peers',
+                [
                 'query' => [
                     'last_known_id' => $lastKnownID
                 ]

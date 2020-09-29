@@ -1,4 +1,5 @@
 <?php
+
 namespace Fatkulnurk\PHPQbitttorrentApi\Log;
 
 interface LogInterface
