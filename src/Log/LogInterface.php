@@ -2,6 +2,12 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Log;
 
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
+
+/**
+ * Interface LogInterface
+ * @package Fatkulnurk\PHPQbitttorrentApi\Log
+ */
 interface LogInterface
 {
     /**
@@ -10,7 +16,7 @@ interface LogInterface
      * @param  bool $warning
      * @param  bool $critical
      * @param  int  $lastKnownID
-     * @return mixed
+     * @return CollectionInterface
      */
     public function getLog(
         bool $normal = true,
@@ -18,11 +24,11 @@ interface LogInterface
         bool $warning = true,
         bool $critical = true,
         int $lastKnownID = -1
-    );
+    ): CollectionInterface;
 
     /**
      * @param  int $lastKnownID
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getPeerLog(int $lastKnownID);
+    public function getPeerLog(int $lastKnownID): CollectionInterface;
 }

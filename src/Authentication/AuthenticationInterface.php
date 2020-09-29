@@ -2,17 +2,19 @@
 
 namespace Fatkulnurk\PHPQbittorrentApi\Authentication;
 
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
+
 interface AuthenticationInterface
 {
     /**
      * @param  string $username
      * @param  string $password
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function login(string $username, string $password);
+    public function login(string $username, string $password): CollectionInterface;
 
     /**
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function logout();
+    public function logout(): CollectionInterface;
 }

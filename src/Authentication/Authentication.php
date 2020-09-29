@@ -3,11 +3,12 @@
 namespace Fatkulnurk\PHPQbittorrentApi\Authentication;
 
 use Fatkulnurk\PHPQbittorrentApi\Collection;
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Authentication implements AuthenticationInterface
 {
-    public function login(string $username, string $password)
+    public function login(string $username, string $password): CollectionInterface
     {
         $response = RequestClient::make()
             ->request(
@@ -24,7 +25,7 @@ class Authentication implements AuthenticationInterface
         return Collection::make($response);
     }
 
-    public function logout()
+    public function logout(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/auth/login');

@@ -21,10 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="418087b5-14f4-4289-8a3a-4b6f6499c2c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Application/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/ApplicationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/ApplicationInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Authentication/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Log/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log/Log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Log/LogInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log/LogInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rss/RSSInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rss/RSSInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Search/SearchInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/SearchInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sync/Sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/Sync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sync/SyncInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/SyncInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TransferInfo/TransferInfoInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransferInfo/TransferInfoInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PHPCSFixerBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/src/Search/SearchInterface.php" />
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -75,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601274019058</updated>
       <workItem from="1601274020302" duration="10740000" />
-      <workItem from="1601350233413" duration="8897000" />
+      <workItem from="1601350233413" duration="9635000" />
     </task>
     <servers />
   </component>
@@ -94,18 +106,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="665" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1601358184786">
+    <state x="566" y="268" key="#PHP_CS_Fixer_Ignored_Files" timestamp="1601362733197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="665" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601358184786" />
+    <state x="566" y="268" key="#PHP_CS_Fixer_Ignored_Files/0.0.1366.728@0.0.1366.728" timestamp="1601362733197" />
+    <state x="665" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1601362839811">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="665" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601362839811" />
     <state x="694" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601360143554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="694" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360143554" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601362053258">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601362790142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601362053258" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601362790142" />
     <state x="461" y="276" key="ComposerInitDialogKey" timestamp="1601351050425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

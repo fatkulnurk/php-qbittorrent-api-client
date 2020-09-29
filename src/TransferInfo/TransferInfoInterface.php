@@ -2,48 +2,54 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\TransferInfo;
 
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
+
+/**
+ * Interface TransferInfoInterface
+ * @package Fatkulnurk\PHPQbitttorrentApi\TransferInfo
+ */
 interface TransferInfoInterface
 {
     /**
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getGlobalTransferInfo();
+    public function getGlobalTransferInfo(): CollectionInterface;
 
     /**
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getAlternativeSpeedLimitsState();
+    public function getAlternativeSpeedLimitsState(): CollectionInterface;
 
     /**
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function toggleAlternativeSpeedLimits();
+    public function toggleAlternativeSpeedLimits(): CollectionInterface;
 
     /**
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getGlobalDownloadLimit();
-
-    /**
-     * @param  int $limit
-     * @return mixed
-     */
-    public function setGlobalDownloadLimit(int $limit);
-
-    /**
-     * @return mixed
-     */
-    public function getGlobalUploadLimit();
+    public function getGlobalDownloadLimit(): CollectionInterface;
 
     /**
      * @param  int $limit
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function setGlobalUploadLimit(int $limit);
+    public function setGlobalDownloadLimit(int $limit): CollectionInterface;
+
+    /**
+     * @return CollectionInterface
+     */
+    public function getGlobalUploadLimit(): CollectionInterface;
+
+    /**
+     * @param  int $limit
+     * @return CollectionInterface
+     */
+    public function setGlobalUploadLimit(int $limit): CollectionInterface;
 
     /**
      * @param  string $peers
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function banPeers(string $peers);
+    public function banPeers(string $peers): CollectionInterface;
 }

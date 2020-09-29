@@ -3,6 +3,7 @@
 namespace Fatkulnurk\PHPQbitttorrentApi\Log;
 
 use Fatkulnurk\PHPQbittorrentApi\Collection;
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Log implements LogInterface
@@ -14,7 +15,7 @@ class Log implements LogInterface
         bool $warning = true,
         bool $critical = true,
         int $lastKnownID = -1
-    ) {
+    ): CollectionInterface {
         $response = RequestClient::make()
             ->request(
                 'GET',
@@ -33,7 +34,7 @@ class Log implements LogInterface
         return Collection::make($response);
     }
 
-    public function getPeerLog(int $lastKnownID = -1)
+    public function getPeerLog(int $lastKnownID = -1): CollectionInterface
     {
         $response = RequestClient::make()
             ->request(

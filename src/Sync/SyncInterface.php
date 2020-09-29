@@ -2,18 +2,20 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Sync;
 
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
+
 interface SyncInterface
 {
     /**
      * @param  int $rid
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getMailData(int $rid);
+    public function getMailData(int $rid): CollectionInterface;
 
     /**
      * @param  string $hash
      * @param  int    $rid
-     * @return mixed
+     * @return CollectionInterface
      */
-    public function getTorrentPeersData(string $hash, int $rid);
+    public function getTorrentPeersData(string $hash, int $rid): CollectionInterface;
 }

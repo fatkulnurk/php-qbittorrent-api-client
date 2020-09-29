@@ -3,11 +3,12 @@
 namespace Fatkulnurk\PHPQbitttorrentApi\Application;
 
 use Fatkulnurk\PHPQbittorrentApi\Collection;
+use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Application implements ApplicationInterface
 {
-    public function getApplicationVersion()
+    public function getApplicationVersion(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/version');
@@ -15,7 +16,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function getApiVersion()
+    public function getApiVersion(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/webapiVersion');
@@ -23,7 +24,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function getBuildInfo()
+    public function getBuildInfo(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/buildInfo');
@@ -31,7 +32,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function shutdownApplication()
+    public function shutdownApplication(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/shutdown');
@@ -39,7 +40,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function getApplicationPreferences()
+    public function getApplicationPreferences(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/preferences');
@@ -47,7 +48,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function setApplicationPreferences(array $payload)
+    public function setApplicationPreferences(array $payload): CollectionInterface
     {
         $response = RequestClient::make()
             ->request(
@@ -61,7 +62,7 @@ class Application implements ApplicationInterface
         return Collection::make($response);
     }
 
-    public function getDefaultSavePath()
+    public function getDefaultSavePath(): CollectionInterface
     {
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/defaultSavePath');
