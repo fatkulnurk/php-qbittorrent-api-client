@@ -4,6 +4,10 @@ namespace Fatkulnurk\PHPQbittorrentApi\Authentication;
 
 use FatkulNurK\PHPQbittorrentApi\CollectionInterface;
 
+/**
+ * Interface AuthenticationInterface
+ * @package Fatkulnurk\PHPQbittorrentApi\Authentication
+ */
 interface AuthenticationInterface
 {
     /**
