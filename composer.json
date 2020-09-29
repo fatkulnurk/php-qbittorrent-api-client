@@ -21,15 +21,16 @@
     "guzzlehttp/guzzle": "7.0"
   },
   "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
   },
   "autoload": {
     "psr-4": {
-      "FatkulNurK\\PHPQbittorrentApi\\": "src"
+      "Fatkulnurk\\PHPQbittorrentApi\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "FatkulNurK\\PHPQbittorrentApi\\Tests\\": "tests"
+      "Fatkulnurk\\PHPQbittorrentApi\\Tests\\": "tests"
     }
   },
   "scripts": {

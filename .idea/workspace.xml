@@ -20,30 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418087b5-14f4-4289-8a3a-4b6f6499c2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QbittorrentInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rss/RSSInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/Search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-qbittorrent-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-qbittorrent-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/ApplicationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/ApplicationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Authentication/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/Authentication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Log/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log/Log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Log/LogInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log/LogInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RequestClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RequestClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sync/Sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/Sync.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sync/SyncInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/SyncInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TransferInfo/TransferInfoInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransferInfo/TransferInfoInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601274019058</updated>
       <workItem from="1601274020302" duration="10740000" />
-      <workItem from="1601350233413" duration="5390000" />
+      <workItem from="1601350233413" duration="6507000" />
     </task>
     <servers />
   </component>
