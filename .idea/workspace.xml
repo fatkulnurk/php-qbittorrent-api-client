@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418087b5-14f4-4289-8a3a-4b6f6499c2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TorrentManagement/TorrentManagementInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/AuthenticationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QbittorrentInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/QbittorrentInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sync/SyncInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/SyncInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RequestClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RequestClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601274019058</updated>
       <workItem from="1601274020302" duration="10740000" />
-      <workItem from="1601350233413" duration="9980000" />
+      <workItem from="1601350233413" duration="10292000" />
     </task>
     <servers />
   </component>
