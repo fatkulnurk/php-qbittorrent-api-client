@@ -2,6 +2,7 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Log;
 
+use Fatkulnurk\PHPQbittorrentApi\Collection;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Log implements LogInterface
@@ -29,7 +30,7 @@ class Log implements LogInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getPeerLog(int $lastKnownID = -1)
@@ -45,6 +46,6 @@ class Log implements LogInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 }

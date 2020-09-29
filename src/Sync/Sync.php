@@ -2,6 +2,7 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Sync;
 
+use Fatkulnurk\PHPQbittorrentApi\Collection;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Sync implements SyncInterface
@@ -20,7 +21,7 @@ class Sync implements SyncInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getTorrentPeersData(string $hash, int $rid)
@@ -37,6 +38,6 @@ class Sync implements SyncInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 }

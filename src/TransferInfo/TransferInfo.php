@@ -2,6 +2,7 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\TransferInfo;
 
+use Fatkulnurk\PHPQbittorrentApi\Collection;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class TransferInfo implements TransferInfoInterface
@@ -11,7 +12,7 @@ class TransferInfo implements TransferInfoInterface
         $response = RequestClient::make()
             ->request('GET', '/api/v2/transfer/info');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getAlternativeSpeedLimitsState()
@@ -19,7 +20,7 @@ class TransferInfo implements TransferInfoInterface
         $response = RequestClient::make()
             ->request('GET', '/api/v2/transfer/speedLimitsMode');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function toggleAlternativeSpeedLimits()
@@ -27,7 +28,7 @@ class TransferInfo implements TransferInfoInterface
         $response = RequestClient::make()
             ->request('GET', '/api/v2/transfer/toggleSpeedLimitsMode');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getGlobalDownloadLimit()
@@ -35,7 +36,7 @@ class TransferInfo implements TransferInfoInterface
         $response = RequestClient::make()
             ->request('GET', '/api/v2/transfer/downloadLimit');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function setGlobalDownloadLimit(int $limit)
@@ -51,7 +52,7 @@ class TransferInfo implements TransferInfoInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getGlobalUploadLimit()
@@ -59,7 +60,7 @@ class TransferInfo implements TransferInfoInterface
         $response = RequestClient::make()
             ->request('GET', '/api/v2/transfer/uploadLimit');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function setGlobalUploadLimit(int $limit)
@@ -75,7 +76,7 @@ class TransferInfo implements TransferInfoInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function banPeers(string $peers)
@@ -91,6 +92,6 @@ class TransferInfo implements TransferInfoInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 }

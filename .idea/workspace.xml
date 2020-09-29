@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="418087b5-14f4-4289-8a3a-4b6f6499c2c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Log/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log/Log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sync/Sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sync/Sync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransferInfo/TransferInfo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601274019058</updated>
       <workItem from="1601274020302" duration="10740000" />
-      <workItem from="1601350233413" duration="8178000" />
+      <workItem from="1601350233413" duration="8897000" />
     </task>
     <servers />
   </component>
@@ -98,10 +102,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="694" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360143554" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601360167392">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601362053258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601360167392" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601362053258" />
     <state x="461" y="276" key="ComposerInitDialogKey" timestamp="1601351050425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

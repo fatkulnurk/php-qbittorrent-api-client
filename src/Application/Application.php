@@ -2,6 +2,7 @@
 
 namespace Fatkulnurk\PHPQbitttorrentApi\Application;
 
+use Fatkulnurk\PHPQbittorrentApi\Collection;
 use Fatkulnurk\PHPQbittorrentApi\RequestClient;
 
 class Application implements ApplicationInterface
@@ -11,7 +12,7 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/version');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getApiVersion()
@@ -19,7 +20,7 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/webapiVersion');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getBuildInfo()
@@ -27,7 +28,7 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/buildInfo');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function shutdownApplication()
@@ -35,7 +36,7 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/shutdown');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getApplicationPreferences()
@@ -43,7 +44,7 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/preferences');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function setApplicationPreferences(array $payload)
@@ -57,7 +58,7 @@ class Application implements ApplicationInterface
                 ]
             );
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 
     public function getDefaultSavePath()
@@ -65,6 +66,6 @@ class Application implements ApplicationInterface
         $response = RequestClient::make()
             ->request('POST', '/api/v2/app/defaultSavePath');
 
-        return $response->getBody()->getContents();
+        return Collection::make($response);
     }
 }
