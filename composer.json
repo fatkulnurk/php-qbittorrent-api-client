@@ -1,12 +1,13 @@
 {
   "name": "fatkulnurk/php-qbittorrent-api",
-  "description": "Qbittorrent Web Ui Api for PHP Languages",
+  "description": "[DEPRECATED] Use fatkulnurk/torrent instead. Qbittorrent Web UI API for PHP.",
   "license": "MIT",
   "keywords": [
     "qbittorrent",
     "php torrent",
     "php torrent client",
-    "torrent api"
+    "torrent api",
+    "deprecated"
   ],
   "authors": [
     {
@@ -16,6 +17,11 @@
       "role": "Dreamer :)"
     }
   ],
+  "homepage": "https://github.com/fatkulnurk/torrent",
+  "support": {
+    "issues": "https://github.com/fatkulnurk/torrent/issues",
+    "source": "https://github.com/fatkulnurk/torrent"
+  },
   "require": {
     "php": ">=7.2.5",
     "guzzlehttp/guzzle": "7.0"
@@ -40,5 +46,6 @@
       "dev-master": "1.0-dev"
     }
   },
+  "abandoned": "fatkulnurk/torrent",
   "minimum-stability": "stable"
 }
